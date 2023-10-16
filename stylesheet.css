@@ -2,7 +2,7 @@ header {
     padding: 0.5 rem;
     width: 100%;
     color: black;
-    font-size: 150px;
+    font-size: 100px;
     background-color: aquamarine;
 }
 body {
@@ -22,7 +22,7 @@ body {
     overflow-x: auto;
     margin: 1rem 0;
     max-width: calc(100vw - 2rem);
-    position:absolute;
-    bottom: 250px;
-    flex-direction: column;
+    position:static;
+    bottom: 50px;
+    flex-direction: row;
 }
