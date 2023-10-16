@@ -1,46 +1,35 @@
 {
-    "animal_kingdom": {
-        "Pets": [
-            {
-                "id": 1,
-                "name": "Golden Retriever",
-                "image_url": "https://img.freepik.com/premium-photo/panting-golden-retriever-dog-sitting-front-white_191971-27466.jpg?w=2000",
-                "fun_fact": "Golden retrievers are one of few dog breeds that have a two-layer coat. Their outer-coat is long and smooth, while their under-coat is soft and frizzy. The two layers help protect the golden from sun cold and moisture."
-            },
-            {
-                "id": 2,
-                "name": "Chinchilla",
-                "image_url": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcR6m68POd5uNeVwT4NX2QFq5XbElxmc7BH0HWPHTgugrYZZdl93sgMPhEvhcwr3Xox_ttMDRtwGaMiu_lw",
-                "fun_fact": "Chinchillas cannot get wet. Their fur is known to be dense and doesn’t dry well. This can cause an infection and possibly kill the pet."
-            }
-        ],
-        "Wild Mammals": [
-            {
-                "id": 1,
-                "name": "Brown Bear",
-                "image_url": "https://files.worldwildlife.org/wwfcmsprod/images/Brown_Bear_/story_full_width/3box0qwlkk_brownbear_hero.jpg",
-                "fun_fact": "The Brown Bear is the largest predator in Europe and the second largest in North America."
-            },
-            {
-                "id": 2,
-                "name": "Wolverine",
-                "image_url": "https://www.nwf.org/-/media/NEW-WEBSITE/Shared-Folder/Wildlife/Mammals/mammal_wolverine_600x300.ashx",
-                "fun_fact": "Wolverines will eat anything dead or alive. They mostly feed on small animals and berries but are not afraid to attack moose, caribou, and deer."
-            }
-        ],
-        "Wild Aquatic": [
-            {
-                "id": 1,
-                "name": "Jellyfish",
-                "image_url": "https://i.guim.co.uk/img/media/cac98b7936cd17774806c5b08cac9997ff388ee3/0_164_5100_3060/master/5100.jpg?width=1300&dpr=2&s=none",
-                "fun_fact": "Jellyfish have been around longer than dinosaurs and have survived five mass extinctions."
-            },
-            {
-                "id": 2,
-                "name": "Viperfish",
-                "image_url": "https://i.guim.co.uk/img/media/cac98b7936cd17774806c5b08cac9997ff388ee3/0_164_5100_3060/master/5100.jpg?width=1300&dpr=2&s=none",
-                "fun_fact": "Viperfish have light-producing organs to lure in their prey and they are capable of staying completely motionless for hours at a time to catch unsuspecting prey."
-            }
-        ]
-    }
+    "Mammals": [
+        {
+            "id": 1,
+            "name": "Golden Retriever",
+            "image_url": "https://img.freepik.com/premium-photo/panting-golden-retriever-dog-sitting-front-white_191971-27466.jpg?w=2000",
+            "fun_fact": "Golden retrievers are one of the few dog breeds that have a two-layer coat. Their outer-coat is long and smooth, while their under-coat is soft and frizzy. The two layers help protect the golden from sun, cold, and moisture."
+        },
+        {
+            "id": 2,
+            "name": "Chinchilla",
+            "image_url": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcR6m68POd5uNeVwT4NX2QFq5XbElxmc7BH0HWPHTgugrYZZdl93sgMPhEvhcwr3Xox_ttMDRtwGaMiu_lw",
+            "fun_fact": "Chinchillas cannot get wet. Their fur is known to be dense and doesn’t dry well. This can cause an infection and possibly kill the pet."
+        },
+        {
+            "id": 3,
+            "name": "Brown Bear",
+            "image_url": "https://files.worldwildlife.org/wwfcmsprod/images/Brown_Bear_/story_full_width/3box0qwlkk_brownbear_hero.jpg",
+            "fun_fact": "The Brown Bear is the largest predator in Europe and the second largest in North America."
+        },
+        {
+            "id": 4,
+            "name": "Wolverine",
+            "image_url": "https://www.nwf.org/-/media/NEW-WEBSITE/Shared-Folder/Wildlife/Mammals/mammal_wolverine_600x300.ashx",
+            "fun_fact": "Wolverines will eat anything dead or alive. They mostly feed on small animals and berries but are not afraid to attack moose, caribou, and deer."
+        },
+        {
+            "id": 5,
+            "name": "Panda",
+            "image_url": "https://i.natgeofe.com/k/6f2282df-1c6a-474a-9216-ed97b3dce858/Panda-Bamboo_Panda-Quiz_KIDS_1021.jpg",
+            "fun_fact": "Pandas spend ten to sixteen hours a day eating mostly bamboo. Ninety-nine percent of their diet is bamboo, but they will sometimes eat small animals and fish."
+        }
+    ]
 }
+
