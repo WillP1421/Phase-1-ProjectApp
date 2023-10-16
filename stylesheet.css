@@ -14,3 +14,12 @@ body {
     justify-content: center;
     align-items: center;
 }
+#mammal-detail {
+    display: flex;
+    overflow-x: auto;
+    margin: 1rem 0;
+    max-width: calc(100vw - 2rem);
+    position:absolute;
+    bottom: 250px;
+    flex-direction: column;
+}
