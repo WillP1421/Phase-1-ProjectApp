@@ -25,4 +25,5 @@ body {
     position:static;
     bottom: 50px;
     flex-direction: row;
+    background-color: white;
 }
