@@ -3,7 +3,8 @@ header {
     width: 100%;
     color: black;
     font-size: 150px;
-    background-color: aquamarine;
+    background-color: aquamarine; 
+    
 }
 body {
     padding: 1rem;
@@ -15,8 +16,21 @@ body {
     align-items: center; 
   background-image: url(https://orlandoinformer.com/wp-content/uploads/2022/04/20210406-DSC02089.jpg); 
   background-repeat: no-repeat ;
-    background-size: 1448px 990px ;
-}
+    background-size: 1948px 1700px ; 
+    
+
+
+    
+} 
+
+    h2 {
+        background-color: green; 
+    } 
+
+    h3 {
+        background-color: green;
+    }
+
 /* #mammal-detail {
     display: flex;
     overflow-x: auto;
@@ -35,5 +49,6 @@ body {
     margin: 1rem 0; 
     max-width: calc(100vw-2rem);
     width: 300px; 
-    height: auto;
+    height: auto; 
+    
 } 
