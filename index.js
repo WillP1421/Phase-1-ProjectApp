@@ -20,10 +20,10 @@ mammalImg.addEventListener("click", () => {
     detailImage.src = mammal.image_url;
 
     const mammalName = document.querySelector('.name')
-    mammalName = mammal.name
+    mammalName.textContent = mammal.name
     
     const mammalFacts = document.querySelector(".fun_fact")
-    mammalFacts = mammal.fun_fact
+    mammalFacts.textContent = mammal.fun_fact
 })
 
 mammalDiv.appendChild(mammalImg)
