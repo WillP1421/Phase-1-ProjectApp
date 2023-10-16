@@ -1,0 +1,15 @@
+header {
+    padding: 0.5 rem;
+    width: 100%;
+    color: black;
+    background-color: aquamarine;
+}
+body {
+    padding: 1rem;
+    text-align: center;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
