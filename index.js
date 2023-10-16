@@ -9,6 +9,16 @@ const displayAnimals = () => {
         })
     })
 }
+const renderMammal = (mammal) => {
+    const mammalImg = document.createElement('img')
+    const mammalDiv = document.createElement('div')
 
+    mammalImg.src = mammal.image_url
+    mammalImg.alt = "photo of mammal"
+
+mammalDiv.appendChild(mammalImg)
+mammalDetail.appendChild(mammalDiv)
+
+}
 
 displayAnimals()
