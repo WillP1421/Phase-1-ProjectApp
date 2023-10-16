@@ -30,7 +30,7 @@ mammalDiv.appendChild(mammalImg)
 mammalDetail.appendChild(mammalDiv)
 
 }
-const audio = new Audio("https://www.fesliyanstudios.com/play-mp3/5329")
+const audio = new Audio("https://cdn.discordapp.com/attachments/1158415233400979667/1163594508919898233/SJ6X7YU-dog-barking.mp3?ex=654024d5&is=652dafd5&hm=e592b9d33d768cb258ddc26ad5d63d4b148c95ee6620da916f5e9ced422c2561&")
 const buttons = document.querySelectorAll("button");
 
 buttons.forEach(button => {
