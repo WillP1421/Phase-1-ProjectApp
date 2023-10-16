@@ -21,7 +21,8 @@ body {
     display: flex;
     overflow-x: auto;
     margin: 1rem 0;
-    max-width: calc(100vw - 2rem);
+    max-width: calc(100vw - 2rem); 
+    width: 300px;
     position:static;
     bottom: 50px;
     flex-direction: row;
