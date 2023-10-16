@@ -2,7 +2,7 @@ header {
     padding: 0.5 rem;
     width: 100%;
     color: black;
-    font-size: 100px;
+    font-size: 150px;
     background-color: aquamarine;
 }
 body {
@@ -17,7 +17,7 @@ body {
   background-repeat: no-repeat ;
     background-size: 1448px 990px ;
 }
-#mammal-detail {
+/* #mammal-detail {
     display: flex;
     overflow-x: auto;
     margin: 1rem 0;
@@ -26,4 +26,14 @@ body {
     position:static;
     bottom: 50px;
     flex-direction: row;
-}
+    background-color: white;
+}  */
+
+#mammal-detail img { 
+    display: flex; 
+    overflow-x:auto ; 
+    margin: 1rem 0; 
+    max-width: calc(100vw-2rem);
+    width: 300px; 
+    height: auto;
+} 
