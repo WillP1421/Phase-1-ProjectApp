@@ -21,12 +21,17 @@ mammalImg.addEventListener("click", () => {
 
     const mammalName = document.querySelector('.name')
     mammalName.textContent = mammal.name
-    
+     
+   detailImage.addEventListener("mouseover", (e) => {
     const mammalFacts = document.querySelector(".fun_fact")
     mammalFacts.textContent = mammal.fun_fact
+    
+})
+   
 })
 
-mammalDiv.appendChild(mammalImg)
+
+ mammalDiv.appendChild(mammalImg)
 mammalDetail.appendChild(mammalDiv)
 
 }
