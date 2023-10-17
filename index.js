@@ -1,3 +1,5 @@
+document.addEventListener("DOMContentLoaded", () => {
+
 const mammalDetail = document.getElementById("mammal-detail")
 
 const displayAnimals = () => {
@@ -64,3 +66,7 @@ form.addEventListener("submit", (e) => {
     form.reset()
 })
 displayAnimals()
+
+})
+
+
