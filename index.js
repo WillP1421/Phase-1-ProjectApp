@@ -29,7 +29,6 @@ mammalImg.addEventListener("click", () => {
      detailImage.addEventListener("mouseover", () => {
     mammalFacts.textContent = mammal.fun_fact;
     
-console.log("hello")
 })
 
    
