@@ -24,13 +24,12 @@ mammalImg.addEventListener("click", () => {
     const mammalName = document.querySelector('.name')
     mammalName.textContent = mammal.name
 
-    
-   
-     detailImage.addEventListener("mouseover", () => {
     const mammalFacts = document.querySelector(".fun_fact")
-        mammalFacts.textContent = mammal.fun_fact;
+    mammalFacts.textContent = ''
+     detailImage.addEventListener("mouseover", () => {
+    mammalFacts.textContent = mammal.fun_fact;
     
-
+console.log("hello")
 })
 
    
