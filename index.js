@@ -21,12 +21,16 @@ mammalImg.addEventListener("click", () => {
 
     const mammalName = document.querySelector('.name')
     mammalName.textContent = mammal.name
-     
-   detailImage.addEventListener("mouseover", (e) => {
-    const mammalFacts = document.querySelector(".fun_fact")
-    mammalFacts.textContent = mammal.fun_fact
+
     
+   
+     detailImage.addEventListener("mouseover", () => {
+    const mammalFacts = document.querySelector(".fun_fact")
+        mammalFacts.textContent = mammal.fun_fact;
+    
+
 })
+
    
 })
 
@@ -43,5 +47,20 @@ buttons.forEach(button => {
         audio.play();
     })
 })
+const form = document.getElementById("new-animal")
 
+const createAnimal = () => {
+    const newAnimal = {
+        id:0,
+        name: form.name.value,
+        image_url:form.image.value,
+        fun_fact: form.funFact.value
+    }
+    renderMammal(newAnimal)
+}
+form.addEventListener("submit", (e) => {
+    e.preventDefault()
+    createAnimal()
+    form.reset()
+})
 displayAnimals()
