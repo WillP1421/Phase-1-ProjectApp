@@ -39,7 +39,7 @@ mammalImg.addEventListener("click", () => {
 mammalDetail.appendChild(mammalDiv)
 
 }
-const audio = new Audio("https://cdn.discordapp.com/attachments/1158415233400979667/1163594508919898233/SJ6X7YU-dog-barking.mp3?ex=654024d5&is=652dafd5&hm=e592b9d33d768cb258ddc26ad5d63d4b148c95ee6620da916f5e9ced422c2561&")
+const audio = new Audio("https://cdn.discordapp.com/attachments/1158415233400979667/1164935289836425327/Untitled-video.mp3?ex=65450588&is=65329088&hm=452edda46ec8af5146d7b5d2a53fff237ce5e6520294b3badd746535f909a339&")
 const buttons = document.querySelectorAll("button");
 
 buttons.forEach(button => {
